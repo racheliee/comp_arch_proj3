@@ -58,11 +58,6 @@ class cache_sim_t
   uint64_t bytes_written;
   uint64_t writebacks;
 
-  // an array to store the time stamp of each cache line
-  uint64_t* time_stamp;
-  // variable to store the current time
-  uint64_t curr_time;
-
   std::string name;
   bool log;
 
